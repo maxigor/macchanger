@@ -1,9 +1,12 @@
-# Usage: macchanger.py [options]
+# usage: rmacc [-h] [-i INTERFACE] [-m NEW_MAC]
 
-Options:
+Change to a random MAC address
+
+options:
 -h, --help show this help message and exit
--i INTERFACE, --interface=INTERFACE
 
-Interface to change its MAC address
--m NEW_MAC, --mac=NEW_MAC
-New MAC address
+    -i INTERFACE, --interface INTERFACE
+        Interface to change its MAC address
+
+    -m NEW_MAC, --mac NEW_MAC
+        New MAC address
